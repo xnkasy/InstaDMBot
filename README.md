@@ -1,38 +1,10 @@
-# What's-App-Automation
+#Whatsapp and Instagram Automation
+The library provides tool to perform spamming(for fun and educational purposes only) on whatsapp as well as instagram. The code for whatsapp bot has been taken from © [Arbaz Khan](https://arbazkhan4712.github.io/Contact.html), while code for Instagram has been build by me. At present the library works on Mac OS for python2.xx. For it to work on linux systems, change the path for chromedriver.
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                  [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)          [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-
-
-It is What's-App-Automation using python &amp; selenium to send messages and images/videos
-
-
-
-# VIDEO:
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lWa6hyqT_QI/0.jpg)](https://www.youtube.com/watch?v=lWa6hyqT_QI)
-
-## Dependencies:
-
-Selenium
-
-```
-pip install selenium
-```
+#Execution
+```python instagram.py```
+This command will then ask your username, password, the receipient username, the message and the number of types you wish to repeat the message.
 
 
-Also Download the Chrome Drivers from here according to your chrome version :- [click here](https://chromedriver.chromium.org/downloads)
-
-
-## Owner:
-- [Arbazkhan4712](https://github.com/Arbazkhan4712/)
-
-## Contributor:
-
-- [Gholakemohit](https://github.com/gholakemohit)
-
-## License & Copyright
-© [Arbaz Khan](https://arbazkhan4712.github.io/Contact.html)
-
-Licensed under the [MIT License](License)
 
 
