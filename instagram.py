@@ -26,13 +26,12 @@ notNowButton = WebDriverWait(webdriver, 15).until(
 )
 notNowButton .click()
 sleep(3) # need to remove this hard code
-el2 = WebDriverWait(webdriver, 15).until(
-    lambda d: d.find_elements_by_xpath("//*[contains(text(), 'xnkasy')]")
-)
-
+string="//*[contains(text(),"+ "\'"+receiver+"\'"+ ")]"
+el2=webdriver.find_elements_by_xpath(string)
 for x in el2:
     if(x.text==receiver):
         x.click()
+        break
 for i in range(num):
     text = webdriver.find_element_by_xpath("//textarea[@placeholder='Message...']")
     text.clear()
